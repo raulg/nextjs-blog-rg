@@ -9,6 +9,7 @@
 .next
 .next/
 /out
+.netlify/
 
 # misc
 .DS_Store
