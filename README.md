@@ -8,7 +8,7 @@ You can use our [Prismic-CLI](https://github.com/prismicio/prismic-cli) tool to 
 
 ```
 > $ npm install -g prismic-cli
-> $ prismic theme https://github.com/raulg/nextjs-blog/archive/master.zip
+> $ prismic theme https://github.com/raulg/nextjs-blog/
 ```
 
 ### Install dependencies
@@ -29,13 +29,13 @@ As of version 15.0.0 of `now` you can use the `now dev` command to run the proje
 ```
 or 
 ```
-> $ npm run now-dev
+> $ npm run dev
 ```
 
 ### Alternative local development mode
-If you find required rebuild process with `now dev` slows down your development workflow, you can run the included Express server file which will handle the same custom routing needs. Keep in mind that the routes defined here are different from the ones defined in `now.json`, always check your routes with `now dev` before deploying live to production. Development server will be running in `http://localhost:3000/` 
+If your workflow favors working with Node, you can run the included Express server file which will handle the same custom routing needs. Keep in mind that the routes defined here are different from the ones defined in `now.json`, make sure to replicate and check your routing before deploying to production on Now. Development server will be running in `http://localhost:3000/` 
 ```
-> $ npm run dev
+> $ npm run nodev
 ```
 
 ### Deploy to Now 2.0 serverless mode
@@ -51,7 +51,7 @@ or
 
 ### Get started with Prismic
 
-You can find out how to get started with Prismic from [our React documentation](https://prismic.io/docs/reactjs/getting-started/getting-started-from-scratch).
+You can find out how to get started with Prismic from [our React documentation](https://prismic.io/docs/reactjs/getting-started/prismic-nextjs).
 
 ### License
 
